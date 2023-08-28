@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T12:43:29.972Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.9" etag="pxx7f7bapCrOB7xiz5SE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T12:49:39.353Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="W5mNX6XJ2IozMI6eIi5L" version="21.6.9" type="github">
   <diagram name="Page-1" id="q55UtAsxOrIb8_m2e40U">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CGFn5zc17e2OIwfzoAjE-1" target="CGFn5zc17e2OIwfzoAjE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-1" value="Check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CGFn5zc17e2OIwfzoAjE-2" target="CGFn5zc17e2OIwfzoAjE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-2" value="CheckInternal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CGFn5zc17e2OIwfzoAjE-4" target="CGFn5zc17e2OIwfzoAjE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CGFn5zc17e2OIwfzoAjE-4" target="CGFn5zc17e2OIwfzoAjE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-4" value="关系是否&lt;br&gt;重写" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-6" value="checkDirect" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CGFn5zc17e2OIwfzoAjE-8" value="checkUsersetRewrite" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
