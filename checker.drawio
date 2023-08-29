@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T02:26:38.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LF2mpQjuT2FY1qQjJhb8" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T07:52:43.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="zn-ub0xPtLabJ9S4lvQg" version="21.6.9" type="github">
   <diagram name="Page-1" id="q55UtAsxOrIb8_m2e40U">
     <mxGraphModel dx="2373" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,6 +306,12 @@
             <mxPoint x="848" y="1198" as="sourcePoint" />
             <mxPoint x="1001" y="1138" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G3OQMjOVGdRczeFTgqwW-5" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="666" y="1253" width="484" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OQMjOVGdRczeFTgqwW-8" value="AllowedRelation_Relation&#xa;1、只能作用在某个对象上：relation parent_folder: folder    此时的Relation为... &#xa;2、作用在另外一个对象的某个关系上：relation member: user | group#member &#xa;&#xa;AllowedRelation_PublicWildcard_&#xa;3、允许通配符：relation viewer: user:*" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1261" width="440" height="99" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
