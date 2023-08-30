@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T13:52:12.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1QcvLAJSNgvO0X9d4DvJ" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T02:26:45.854Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KK_Lo8OJ3MrRPMZXAmOG" version="21.6.9" type="github">
   <diagram name="Page-1" id="W0JfOqUQnIYBLfiDsupI">
     <mxGraphModel dx="1546" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-14" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
-          <mxGeometry x="40" width="970" height="1060" as="geometry" />
+          <mxGeometry x="40" width="970" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cZT5SAGAqUM4J9nvlFvH-14" source="cZT5SAGAqUM4J9nvlFvH-18" target="cZT5SAGAqUM4J9nvlFvH-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-15" value="cacheing.Dispatcher" style="swimlane;startSize=20;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-14">
-          <mxGeometry x="20" width="150" height="1060" as="geometry" />
+          <mxGeometry x="20" width="150" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-18" value="DispatchCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-15">
           <mxGeometry x="20" y="100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-16" value="localDispatcher" style="swimlane;startSize=20;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-14">
-          <mxGeometry x="170" width="190" height="1060" as="geometry" />
+          <mxGeometry x="170" width="190" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-20" value="DispatchCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-16">
           <mxGeometry x="60" y="100" width="100" height="40" as="geometry" />
@@ -30,7 +30,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-17" value="ConcurrentChecker" style="swimlane;startSize=20;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-14">
-          <mxGeometry x="360" width="610" height="1060" as="geometry" />
+          <mxGeometry x="360" width="610" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cZT5SAGAqUM4J9nvlFvH-17" source="cZT5SAGAqUM4J9nvlFvH-24" target="cZT5SAGAqUM4J9nvlFvH-26">
           <mxGeometry relative="1" as="geometry" />
@@ -69,7 +69,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-38" value="直接校验&lt;br&gt;并返回" style="ellipse;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-17">
-          <mxGeometry x="505" y="190" width="70" height="75" as="geometry" />
+          <mxGeometry x="505" y="200" width="70" height="55" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cZT5SAGAqUM4J9nvlFvH-17" source="cZT5SAGAqUM4J9nvlFvH-36" target="cZT5SAGAqUM4J9nvlFvH-38">
           <mxGeometry relative="1" as="geometry" />
@@ -184,6 +184,9 @@
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-92" value="union" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-17">
           <mxGeometry x="390" y="990" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cZT5SAGAqUM4J9nvlFvH-95" value="eg: permission read = parent_folder-&amp;gt;read&lt;br&gt;1、找到和校验对象有parent_folder的对象&lt;br&gt;2、只要一个parent_folder和校验主体有read关系即有权限" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cZT5SAGAqUM4J9nvlFvH-17">
+          <mxGeometry x="205" y="1040" width="312.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cZT5SAGAqUM4J9nvlFvH-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cZT5SAGAqUM4J9nvlFvH-14" source="cZT5SAGAqUM4J9nvlFvH-20" target="cZT5SAGAqUM4J9nvlFvH-24">
           <mxGeometry relative="1" as="geometry" />
