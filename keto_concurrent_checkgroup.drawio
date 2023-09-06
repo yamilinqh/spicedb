@@ -1,9 +1,247 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T08:43:42.423Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.0" etag="4ojgXxkQLYmmWIxf35p2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T04:00:14.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="P3WCKwb9ZdrVb2l0TAuL" version="21.7.0" type="github">
   <diagram name="Page-1" id="Vdn0SQZmsy2j9pKAqz73">
-    <mxGraphModel>
+    <mxGraphModel dx="2960" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CRD036Pue_tvIPCj3J3W-123" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-270" width="400" height="615" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="80" width="720" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-2" target="CRD036Pue_tvIPCj3J3W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-2" value="addCheckCh" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="185" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-3" target="CRD036Pue_tvIPCj3J3W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-3" value="resultCh" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-4" target="CRD036Pue_tvIPCj3J3W-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-4" value="Add(CheckFunc)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="185" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-9" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-6" target="CRD036Pue_tvIPCj3J3W-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-6" target="CRD036Pue_tvIPCj3J3W-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-6" value="startConsumer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="185" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-43" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-8" target="CRD036Pue_tvIPCj3J3W-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-8" value="go check(resultCh)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="185" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-19" target="CRD036Pue_tvIPCj3J3W-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-19" value="有结果或&lt;br&gt;停止条件" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-20" target="CRD036Pue_tvIPCj3J3W-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-20" value="赋值g.result&lt;br&gt;并return" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;addCheckCh&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;resultCh&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="225" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-31" target="CRD036Pue_tvIPCj3J3W-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-31" value="doneCh" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="290" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-33" value="close" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-34" value="CheckFunc" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="57" y="390" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-38" value="push g.result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-42" value="concurrent_checkgroup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-54" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-50" target="CRD036Pue_tvIPCj3J3W-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-972.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-50" value="childCh" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-1027.5" y="390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-55" value="listen and push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="440" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-56" target="CRD036Pue_tvIPCj3J3W-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-56" value="e Edge&lt;br&gt;f CheckFunc&lt;br&gt;resultCh chan" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1022.5" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-57" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;WithEdge(e Edge, f CheckFunc)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1061.5" y="60" width="178" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-61" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-58" target="CRD036Pue_tvIPCj3J3W-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;dashed=1;endFill=0;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-58" target="CRD036Pue_tvIPCj3J3W-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1090" y="227.5" />
+              <mxPoint x="-1090" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-58" value="make childCh" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="207.5" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-60" target="CRD036Pue_tvIPCj3J3W-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-60" value="go f(childCh)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="300" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-64" value="resultCh" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-1027.5" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-80" target="CRD036Pue_tvIPCj3J3W-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-83" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-80" target="CRD036Pue_tvIPCj3J3W-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-218" y="160" />
+              <mxPoint x="369" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-80" value="checkgroup.New(ctx)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-314" y="185" width="128.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-85" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-81" target="CRD036Pue_tvIPCj3J3W-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-87" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-81" target="CRD036Pue_tvIPCj3J3W-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-81" value="有结果或&lt;br&gt;停止条件" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-289.75" y="75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-84" value="g.add(checkSubjectSetRewrite)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-519.75" y="95" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-89" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-86" target="CRD036Pue_tvIPCj3J3W-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-92" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-86" target="CRD036Pue_tvIPCj3J3W-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-86" value="can direct" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-289.75" y="-35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-88" target="CRD036Pue_tvIPCj3J3W-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-130" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-88" target="CRD036Pue_tvIPCj3J3W-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-88" value="canHave&lt;br&gt;SubjectSets" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-289.75" y="-145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-90" value="g.Add&lt;span style=&quot;background-color: initial;&quot;&gt;(checkDirect)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-519.75" y="-15" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-91" value="g.Add(e.checkExpandSubject" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-519.75" y="-125" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-94" value="创建同时启动监听" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="130" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-95" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-640" y="353" width="630" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;dashed=1;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry width="630" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-36" value="resultCh" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry x="489" y="37" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-73" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="CRD036Pue_tvIPCj3J3W-95" source="CRD036Pue_tvIPCj3J3W-68" target="CRD036Pue_tvIPCj3J3W-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="213" y="10" />
+              <mxPoint x="544" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-68" value="make resultCh" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry x="148.25" y="37" width="128.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-70" value="go e.checkIsAllowed&lt;br&gt;(r *relationTuple,&lt;br&gt;&amp;nbsp;resultCh)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry x="326" y="37" width="128.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-71" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="CRD036Pue_tvIPCj3J3W-95" source="CRD036Pue_tvIPCj3J3W-68" target="CRD036Pue_tvIPCj3J3W-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-76" value="r *relationTuple" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry x="17" y="27" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-69" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="CRD036Pue_tvIPCj3J3W-95" source="CRD036Pue_tvIPCj3J3W-76" target="CRD036Pue_tvIPCj3J3W-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212.5" y="-138" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-77" value="CheckRelationTuple" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry x="2" y="127" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-39" value="return" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="CRD036Pue_tvIPCj3J3W-95">
+          <mxGeometry x="479" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-40" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="CRD036Pue_tvIPCj3J3W-95" source="CRD036Pue_tvIPCj3J3W-36" target="CRD036Pue_tvIPCj3J3W-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-109" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-108" target="CRD036Pue_tvIPCj3J3W-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-108" value="r *relationTuple&lt;br&gt;resultCh" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-299.75" y="262.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-110" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-70" target="CRD036Pue_tvIPCj3J3W-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-124" value="checkIsAllowed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="315" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-129" value="g.CheckFunc" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-299.75" y="-240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRD036Pue_tvIPCj3J3W-37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="CRD036Pue_tvIPCj3J3W-34" target="CRD036Pue_tvIPCj3J3W-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
