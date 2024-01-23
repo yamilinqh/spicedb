@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T07:43:16.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2WXUiY7kBbxBhDAfwngV" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T07:53:14.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PYwDgeYgS1zcyylcUEm9" version="22.1.21" type="github">
   <diagram name="Page-1" id="_df5LQXNRFSoWel__wSC">
     <mxGraphModel dx="3171" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -279,9 +279,6 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-146" value="动态组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-810" y="1630" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-159" value="互信组 - IAM一级权限互信组，所有接入SSO的应用都视为该互信组的从应用&lt;br&gt;从应用的功能需要改造：统一授权的从应用角色不允许删除；关联公共组的共享角色可以删除；IAM关联公共动态组的功能，到UAC后不允许使用。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="1960" width="800" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=3;jumpSize=3;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-162" target="FuUWSDyZ6F-eLyP30ZwY-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -360,11 +357,41 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-193" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-194" target="FuUWSDyZ6F-eLyP30ZwY-195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-194" value="应用初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-194" value="应用初始化&lt;br&gt;允许权限、禁止权限等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="2250" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-195" value="加入一级权限互信组的从应用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="250" y="2250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-196" value="允许权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="910" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-197" value="禁止权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="990" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-200" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-198" target="FuUWSDyZ6F-eLyP30ZwY-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-198" value="角色" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="910" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-202" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-201" target="FuUWSDyZ6F-eLyP30ZwY-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-201" value="角色" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="990" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-204" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-203" target="FuUWSDyZ6F-eLyP30ZwY-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-203" value="允许规则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="800" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-206" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-205" target="FuUWSDyZ6F-eLyP30ZwY-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-205" value="禁止规则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1110" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
