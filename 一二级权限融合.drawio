@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T06:44:24.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TQvwtE0WzRg3SpB3Am6X" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T07:43:16.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2WXUiY7kBbxBhDAfwngV" version="22.1.21" type="github">
   <diagram name="Page-1" id="_df5LQXNRFSoWel__wSC">
     <mxGraphModel dx="3171" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,13 +83,24 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-115" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-25" target="FuUWSDyZ6F-eLyP30ZwY-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-25" value="应用&lt;br&gt;（接入UAC）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-179" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-25" target="FuUWSDyZ6F-eLyP30ZwY-178">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1690" />
+              <mxPoint x="530" y="1995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-25" value="应用&lt;br&gt;（一级权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="1655" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-26" target="FuUWSDyZ6F-eLyP30ZwY-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-118" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-26" target="FuUWSDyZ6F-eLyP30ZwY-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-181" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-26" target="FuUWSDyZ6F-eLyP30ZwY-180">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-26" value="角色" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -157,11 +168,6 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-85" value="共享角色&lt;br&gt;（主应用）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1655" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-86" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-98" target="FuUWSDyZ6F-eLyP30ZwY-85">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="35" y="1775" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-101" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-95" target="FuUWSDyZ6F-eLyP30ZwY-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -175,17 +181,6 @@
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-95" value="统一授权规则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1490" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-107" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-98" target="FuUWSDyZ6F-eLyP30ZwY-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="1520" />
-              <mxPoint x="220" y="1520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-98" value="权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1655" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-104" value="动态组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-180" y="1655" width="90" height="50" as="geometry" />
@@ -284,8 +279,8 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-146" value="动态组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-810" y="1630" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-159" value="1、互信组 - IAM一级权限互信组，所有接入SSO的应用都视为该互信组的从应用&lt;br&gt;2、每个从应用包含两种" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="1963" width="450" height="40" as="geometry" />
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-159" value="互信组 - IAM一级权限互信组，所有接入SSO的应用都视为该互信组的从应用&lt;br&gt;从应用的功能需要改造：统一授权的从应用角色不允许删除；关联公共组的共享角色可以删除；IAM关联公共动态组的功能，到UAC后不允许使用。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="1960" width="800" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=3;jumpSize=3;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-162" target="FuUWSDyZ6F-eLyP30ZwY-167">
           <mxGeometry relative="1" as="geometry" />
@@ -308,7 +303,7 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-167" value="sso" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="128" y="655" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-168" value="uac" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-168" value="uac" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="292" y="570" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-169" value="iam" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -323,20 +318,53 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-172" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;登录认证&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="640" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-173" value="将军令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="340" y="555" width="60" height="30" as="geometry" />
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-178" value="应用&lt;br&gt;（二级权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1970" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-174" value="自建权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="390" y="540" width="60" height="30" as="geometry" />
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-180" value="权限&lt;br&gt;（允许、禁止）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="915" y="1785" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-175" value="......." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="443" y="525" width="60" height="30" as="geometry" />
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-184" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-182" target="FuUWSDyZ6F-eLyP30ZwY-183">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-176" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="310" y="660" width="60" height="30" as="geometry" />
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-182" value="SSO应用入驻" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="2140" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-177" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="330" y="670" width="60" height="30" as="geometry" />
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-186" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-183" target="FuUWSDyZ6F-eLyP30ZwY-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-183" value="自动创建UAC应用（一级权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-188" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-185" target="FuUWSDyZ6F-eLyP30ZwY-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-185" value="应用初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-187" value="加入一级权限互信组的从应用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-189" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-190" target="FuUWSDyZ6F-eLyP30ZwY-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-190" value="SSO应用入驻" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="2250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-191" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-192" target="FuUWSDyZ6F-eLyP30ZwY-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-192" value="自动创建UAC应用（一级权限）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-193" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-194" target="FuUWSDyZ6F-eLyP30ZwY-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-194" value="应用初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-195" value="加入一级权限互信组的从应用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2250" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
