@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T14:11:41.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8dxXrjQVuBeeXg_wpfOW" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T14:12:10.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KCKluQHWbiH3G9fbSzlk" version="22.1.21" type="github">
   <diagram name="Page-1" id="_df5LQXNRFSoWel__wSC">
     <mxGraphModel dx="3440" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,13 +331,11 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-284" value="代理商&lt;br&gt;权限规则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-260" y="1785" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-391" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1">
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-414" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-285" target="FuUWSDyZ6F-eLyP30ZwY-180">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-60.001176470587836" y="1780" as="sourcePoint" />
-            <mxPoint x="964.94" y="1780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-60.06" y="1865" />
-              <mxPoint x="964.94" y="1865" />
+              <mxPoint x="-65" y="1870" />
+              <mxPoint x="960" y="1870" />
             </Array>
           </mxGeometry>
         </mxCell>
