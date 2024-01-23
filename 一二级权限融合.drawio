@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T14:07:39.935Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QtLOfBgkSASXXHTTYYRv" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T14:11:41.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8dxXrjQVuBeeXg_wpfOW" version="22.1.21" type="github">
   <diagram name="Page-1" id="_df5LQXNRFSoWel__wSC">
     <mxGraphModel dx="3440" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="300" y="1160" width="860" height="740" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-131" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;strokeWidth=2;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="1160" width="640" height="740" as="geometry" />
+          <mxGeometry x="-360" y="1160" width="660" height="740" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-1" value="UAC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="105" width="520" height="50" as="geometry" />
@@ -156,6 +156,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-412" value="" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-85" target="FuUWSDyZ6F-eLyP30ZwY-411">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-85" value="共享角色&lt;br&gt;（主应用）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="50" y="1655" width="90" height="50" as="geometry" />
         </mxCell>
@@ -177,7 +180,7 @@
           <mxGeometry x="-120" y="1655" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-109" value="角色管理员" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1785" width="90" height="50" as="geometry" />
+          <mxGeometry x="200" y="1728" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-114" value="一级权限管理员&lt;br&gt;（新增概念）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="737" y="1580" width="90" height="50" as="geometry" />
@@ -481,12 +484,12 @@
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-396" value="金融代理商&lt;br&gt;规则" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="50" y="1271" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-408" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-398" target="FuUWSDyZ6F-eLyP30ZwY-104">
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-408" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="FuUWSDyZ6F-eLyP30ZwY-398" target="FuUWSDyZ6F-eLyP30ZwY-411">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-205" y="1600" />
-              <mxPoint x="-150" y="1600" />
-              <mxPoint x="-150" y="1668" />
+              <mxPoint x="-330" y="1296" />
+              <mxPoint x="-330" y="1890" />
+              <mxPoint x="99" y="1890" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -514,7 +517,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FuUWSDyZ6F-eLyP30ZwY-402" value="ip清单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1271" width="90" height="50" as="geometry" />
+          <mxGeometry x="200" y="1271" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FuUWSDyZ6F-eLyP30ZwY-411" value="白名单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="53.75" y="1785" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
