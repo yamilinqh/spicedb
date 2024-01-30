@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T11:55:37.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nTx6bWKZfszNl8cBuxsR" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T12:56:32.074Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yM7pCusD5J3b0IkrY4En" version="23.0.2" type="github">
   <diagram name="Page-1" id="4WrFxPnNMA99j5AakJLI">
     <mxGraphModel dx="1120" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,6 +270,43 @@
         </mxCell>
         <mxCell id="ftVzmyuL1g7xqGU-LNCz-103" value="城市/组织" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="237" y="1400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LJtHVMvOFmtvIT8aFIWM-3" target="LJtHVMvOFmtvIT8aFIWM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-3" value="用户级授权范围&lt;br&gt;authResource" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="77" y="1754" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LJtHVMvOFmtvIT8aFIWM-4" target="LJtHVMvOFmtvIT8aFIWM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LJtHVMvOFmtvIT8aFIWM-4" target="LJtHVMvOFmtvIT8aFIWM-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="1860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-4" value="有权限" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="256.5" y="1734" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LJtHVMvOFmtvIT8aFIWM-8" target="LJtHVMvOFmtvIT8aFIWM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-8" value="用户角色关系&lt;br&gt;（无需过滤）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1754" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-10" value="用户权限关系&lt;br&gt;（无需过滤）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="583" y="1754" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LJtHVMvOFmtvIT8aFIWM-12" target="LJtHVMvOFmtvIT8aFIWM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-12" value="用户角色关系&lt;br&gt;（过滤范围）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1840" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LJtHVMvOFmtvIT8aFIWM-13" value="用户权限关系&lt;br&gt;（过滤范围）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="583" y="1840" width="93" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
