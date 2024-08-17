@@ -14,60 +14,60 @@
           <mxGeometry x="150" y="740" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="229" y="340" width="100" height="120" as="geometry" />
+          <mxGeometry x="159" y="560" width="100" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-1" target="ywxlOEBr5Vx2DZHbRNXe-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-1" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="350" width="80" height="40" as="geometry" />
+          <mxGeometry x="10" y="570" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-2" target="ywxlOEBr5Vx2DZHbRNXe-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-2" value="Mysql2Hive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="240" y="355" width="80" height="30" as="geometry" />
+          <mxGeometry x="170" y="575" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-4" target="ywxlOEBr5Vx2DZHbRNXe-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-4" value="Hive" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="355" width="80" height="30" as="geometry" />
+          <mxGeometry x="330" y="575" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-6" target="ywxlOEBr5Vx2DZHbRNXe-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="280" />
-              <mxPoint x="510" y="370" />
+              <mxPoint x="440" y="500" />
+              <mxPoint x="440" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-6" value="Hive2Hive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="400" y="260" width="80" height="40" as="geometry" />
+          <mxGeometry x="330" y="480" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-9" value="XT任务分类&lt;br&gt;1、离线任务：Hive2Hive&lt;br&gt;2、同步任务：异构数据源之间，如Mysql2Hive、Hive2Mysql&lt;br&gt;3、MR/spark任务：&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="770" y="330" width="380" height="80" as="geometry" />
+          <mxGeometry x="700" y="550" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-11" value="DB数据同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="245" y="430" width="70" height="30" as="geometry" />
+          <mxGeometry x="175" y="650" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-12" target="XHmcN2xixC-POxuIJWdY-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-12" value="实时binlog接入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="240" y="394" width="80" height="30" as="geometry" />
+          <mxGeometry x="170" y="614" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-3" target="XHmcN2xixC-POxuIJWdY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-3" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="400" y="394" width="80" height="30" as="geometry" />
+          <mxGeometry x="330" y="614" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-5" value="flink" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="550" y="394" width="80" height="30" as="geometry" />
+          <mxGeometry x="480" y="614" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-7" value="DB数据同步提供了两种能力&lt;br&gt;1、实时binlog接入，将binlog写入kafka，然后可以通过flink进行消费处理&lt;br&gt;2、Mysql2Hive，场景产品化的功能，集成了binlog-&amp;gt;kafka-&amp;gt;消费处理逻辑" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="260" width="420" height="60" as="geometry" />
+          <mxGeometry x="700" y="480" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-11" target="XHmcN2xixC-POxuIJWdY-13">
           <mxGeometry relative="1" as="geometry" />
@@ -180,8 +180,54 @@
         <mxCell id="XHmcN2xixC-POxuIJWdY-70" value="MTThrift" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="935" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XHmcN2xixC-POxuIJWdY-73" value="调度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="409" y="220" width="60" height="30" as="geometry" />
+        <mxCell id="XHmcN2xixC-POxuIJWdY-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-74" target="XHmcN2xixC-POxuIJWdY-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="234" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-74" value="Cantor&lt;br&gt;（调度）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="194" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-76" value="ETL任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="34" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-78" target="XHmcN2xixC-POxuIJWdY-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-78" target="XHmcN2xixC-POxuIJWdY-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-78" value="XT&lt;br&gt;（管理平台）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="34" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-80" target="XHmcN2xixC-POxuIJWdY-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-80" value="SQLWeaver&lt;br&gt;（ETL执行工具）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="24" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-84" value="创建、测试" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-85" value="注册调度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="143" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-86" value="调度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="229" y="178" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-87" value="获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="178" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-88" value="ETL架构" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-101" value="&lt;div&gt;ETL流程&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;init：解析任务代码、获取任务信息&lt;/li&gt;&lt;li&gt;prepare_target：检查目标表是否存在，如果不存在，用targetddl建表（##targetddl##标签下）&lt;/li&gt;&lt;li&gt;extract：从source定义的源数据中读取数据，将读出的数据写到本地文件&lt;/li&gt;&lt;li&gt;transform：将上一步得到的数据文件做处理，将得到的文件写到另一个文件里。在##transform##标签下补充转换逻辑，可以写脚本。&lt;/li&gt;&lt;li&gt;preload：执行load步骤前做的事情，比如可以删除一些不必要的数据、分区；在##preload##标签下补充要此步骤执行的SQL。&lt;/li&gt;&lt;li&gt;load：执行load数据操作。如果没有写对应操作，就用默认SQL执行，默认逻辑是将extract和transform阶段处理过的数据执行load data语句，load到目标表中。&lt;/li&gt;&lt;li&gt;做一些清理文件的事情&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" width="540" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XHmcN2xixC-POxuIJWdY-102" value="一般如果在##extract##标签下写了读取SQL的（老版的mysql2hive任务），##load##标签下就不用写SQL了；如果##extract##标签下没有写SQL（hiev2hive任务），就需要在##Load##标签下写load语句就可以了。&lt;br&gt;hive2hive的任务，因为读出数据落到本地再从本地load到集群里这种方式比较浪费资源，而且hive本身支持 insert into table as select 这样的语法，所以只需要写一个load语句就可以了" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="560" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
