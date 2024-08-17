@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2024-08-17T03:30:48.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.6.5" etag="vaEkqlqoi53CttlwEezp" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-17T03:37:48.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="vW8nwqxZxyQY349T2bRe" version="24.6.5" type="github">
   <diagram name="Page-1" id="K36MnnztzoWmUBZCbSHd">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-1" target="ywxlOEBr5Vx2DZHbRNXe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-1" value="Mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-2" target="ywxlOEBr5Vx2DZHbRNXe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-2" value="Mysql2Hive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="355" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-4" target="ywxlOEBr5Vx2DZHbRNXe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-4" value="Hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ywxlOEBr5Vx2DZHbRNXe-6" target="ywxlOEBr5Vx2DZHbRNXe-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="280" />
+              <mxPoint x="510" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-6" value="Hive2Hive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-9" value="离线任务：Hive2Hive&lt;br&gt;同步任务：异构数据源之间，如Mysql2Hive、Hive2Mysql" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="650" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-11" value="DB数据同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="246" y="437" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywxlOEBr5Vx2DZHbRNXe-12" value="Mysql2Hive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="385" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
