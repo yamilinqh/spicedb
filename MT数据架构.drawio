@@ -46,7 +46,7 @@
           <mxGeometry x="330" y="480" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-9" value="XT任务分类&lt;br&gt;1、离线任务：Hive2Hive&lt;br&gt;2、同步任务：异构数据源之间，如Mysql2Hive、Hive2Mysql&lt;br&gt;3、MR/spark任务：&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="700" y="550" width="380" height="80" as="geometry" />
+          <mxGeometry x="930" y="10" width="380" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ywxlOEBr5Vx2DZHbRNXe-11" value="DB数据同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="175" y="650" width="70" height="30" as="geometry" />
@@ -67,7 +67,7 @@
           <mxGeometry x="480" y="614" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-7" value="DB数据同步提供了两种能力&lt;br&gt;1、实时binlog接入，将binlog写入kafka，然后可以通过flink进行消费处理&lt;br&gt;2、Mysql2Hive，场景产品化的功能，集成了binlog-&amp;gt;kafka-&amp;gt;消费处理逻辑" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="480" width="420" height="60" as="geometry" />
+          <mxGeometry x="600" y="480" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-11" target="XHmcN2xixC-POxuIJWdY-13">
           <mxGeometry relative="1" as="geometry" />
