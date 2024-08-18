@@ -481,7 +481,7 @@
         <mxCell id="XHmcN2xixC-POxuIJWdY-191" value="归档hdfs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="69" y="1870" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XHmcN2xixC-POxuIJWdY-196" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-193" target="XHmcN2xixC-POxuIJWdY-195">
+        <mxCell id="XHmcN2xixC-POxuIJWdY-196" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="XHmcN2xixC-POxuIJWdY-193" target="XHmcN2xixC-POxuIJWdY-195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XHmcN2xixC-POxuIJWdY-193" value="结果hdfs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
