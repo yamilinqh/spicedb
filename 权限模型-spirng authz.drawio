@@ -110,6 +110,33 @@
         <mxCell id="TPik0PLEabz_SIQZOe-N-24" value="校验权限" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="565" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-26" value="&lt;span style=&quot;color: rgb(17, 25, 37); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Spring Security的过滤器链&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry y="700" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="TPik0PLEabz_SIQZOe-N-27" target="TPik0PLEabz_SIQZOe-N-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-27" value="获取当前session的用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="760" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-28" value="权限检查" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-32" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="TPik0PLEabz_SIQZOe-N-30" target="TPik0PLEabz_SIQZOe-N-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-30" value="保存JWT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="950" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-34" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="1" source="TPik0PLEabz_SIQZOe-N-31" target="TPik0PLEabz_SIQZOe-N-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-31" value="用户关联&lt;br&gt;角色列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="950" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPik0PLEabz_SIQZOe-N-33" value="用户关联&lt;br&gt;角色列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="950" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
