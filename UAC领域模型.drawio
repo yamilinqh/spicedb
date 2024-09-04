@@ -177,6 +177,9 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-106" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-96" target="2yZ6IZibKsrI4easGU-Z-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-109" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-96" target="2yZ6IZibKsrI4easGU-Z-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-96" value="组织架构调整保留详情" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="234" y="730" width="60" height="30" as="geometry" />
         </mxCell>
@@ -200,6 +203,9 @@
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-107" value="1、调岗保留，强行建立了用户和动态组的关系；更合理的应该是建立用户和角色的关系？&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2、调岗保留详情，不应该在uaccalc模块。应该在权限生命周期模块&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="359" y="585" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-108" value="角色" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="234" y="800" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
