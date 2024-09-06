@@ -333,6 +333,9 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-274" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-231" target="2yZ6IZibKsrI4easGU-Z-273">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-277" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-231" target="2yZ6IZibKsrI4easGU-Z-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-231" value="生命周期对象" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="350" y="827" width="70" height="30" as="geometry" />
         </mxCell>
@@ -421,6 +424,9 @@
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-273" value="续期" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="460.5" y="910" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-276" value="注册新对象" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="459" y="742.5" width="90" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
