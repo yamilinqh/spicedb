@@ -274,7 +274,7 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-170" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-168" target="2yZ6IZibKsrI4easGU-Z-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yZ6IZibKsrI4easGU-Z-168" value="动态组授权" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-168" value="动态组授权" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="10" y="320" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
