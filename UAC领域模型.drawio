@@ -350,7 +350,10 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-235" value="即将到期" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="460" y="735.25" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2yZ6IZibKsrI4easGU-Z-238" value="对象类型配置" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-304" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-238" target="2yZ6IZibKsrI4easGU-Z-302">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-238" value="对象类型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="629.5" y="216" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-254" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-240" target="2yZ6IZibKsrI4easGU-Z-253">
@@ -428,9 +431,6 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-273" value="续期" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="463" y="850" width="77" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2yZ6IZibKsrI4easGU-Z-298" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-276" target="2yZ6IZibKsrI4easGU-Z-226">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-276" value="注册新对象" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="460.5" y="680" width="79.5" height="35" as="geometry" />
         </mxCell>
@@ -449,9 +449,6 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-288" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-287" target="2yZ6IZibKsrI4easGU-Z-226">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yZ6IZibKsrI4easGU-Z-289" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-287" target="2yZ6IZibKsrI4easGU-Z-229">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-287" value="过期删除" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="460" y="790" width="80" height="35" as="geometry" />
         </mxCell>
@@ -466,6 +463,15 @@
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-291" value="过期删除" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="150" y="735" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-300" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;对象类型事件配置（业务主键：类型编号）&lt;br&gt;1、类型编号&lt;br&gt;2、生命周期事件&lt;br&gt;3、触发动作（发消息、调用接口）&lt;br&gt;4、动作详情（消息配置、接口地址）&lt;br&gt;生命周期对象（业务主键：类型编号+关联ID）&lt;br&gt;1、对象ID&lt;br&gt;2、对象类型编号&lt;br&gt;3、对象关联ID&lt;br&gt;4、&lt;br&gt;生命周期变化日志&lt;br&gt;1、对象ID&lt;br&gt;2、事件&lt;br&gt;3、状态（未处理、已处理、失败待重试、已失败、未知）&lt;br&gt;4、关联处理ID（消息ID、tracei&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="623.5" y="420" width="306.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-302" value="对象类型事件处理配置" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="629.5" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-305" value="过期删除逻辑：&lt;br&gt;&lt;div style=&quot;&quot;&gt;1、先校验是否确实过期&lt;br&gt;2、调用普通删除接口&lt;br&gt;3、发送过期删除事件&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="980" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
