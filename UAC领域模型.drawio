@@ -715,7 +715,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-588" value="用户" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="42.5" y="1632.75" width="70" height="30" as="geometry" />
+          <mxGeometry x="170.5" y="1550" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-612" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-595" target="2yZ6IZibKsrI4easGU-Z-716">
           <mxGeometry relative="1" as="geometry">
@@ -723,7 +723,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-595" value="属性变化" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="155" y="1630.25" width="70" height="35" as="geometry" />
+          <mxGeometry x="170.5" y="1630.25" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-668" style="edgeStyle=none;shape=connector;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="2yZ6IZibKsrI4easGU-Z-674" target="2yZ6IZibKsrI4easGU-Z-686">
           <mxGeometry relative="1" as="geometry" />
@@ -858,6 +858,9 @@
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-752" value="不保留" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="170.5" y="1882" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-755" value="1、用户属性变化，判断为需要保留处理，创建转岗保留单据，并注册为生命周期对象&lt;br&gt;2、根据需要保留明细，创建白名单授权（短期）&lt;br&gt;3、用户处理单据，相应生命周期对象消亡&lt;br&gt;4、依据处理单据结果，需要保留的权限做延期处理；不需要保留的做删除处理" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1882" width="460" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
