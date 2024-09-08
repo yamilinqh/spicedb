@@ -519,7 +519,7 @@
         <mxCell id="2yZ6IZibKsrI4easGU-Z-341" value="账号关闭" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="172.5" y="775.25" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2yZ6IZibKsrI4easGU-Z-350" value="领域关系&lt;br&gt;1、监听授权管理事件，做相应的处理&lt;br&gt;2、缓存等处理也是监听授权管理事件刷新&lt;br&gt;3、生命周期对象已过期时，自身监听事件，调用授权管理过期删除能力" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="2yZ6IZibKsrI4easGU-Z-350" value="领域关系，生命周期 依赖 授权管理&lt;br&gt;1、监听授权管理事件，做相应的处理&lt;br&gt;2、缓存等处理也是监听授权管理事件刷新&lt;br&gt;3、生命周期对象已过期时，自身监听事件，调用授权管理过期删除能力" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="622.5" y="1005" width="370" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2yZ6IZibKsrI4easGU-Z-421" value="创建" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
