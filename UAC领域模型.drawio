@@ -902,7 +902,7 @@
           <mxGeometry x="313" y="-150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GODpegbIOZ93fXvZg3FF-14" value="upm迁移应用功能开关" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="140" y="-110" width="60" height="30" as="geometry" />
+          <mxGeometry x="216.5" y="-190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GODpegbIOZ93fXvZg3FF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GODpegbIOZ93fXvZg3FF-15" target="GODpegbIOZ93fXvZg3FF-16">
           <mxGeometry relative="1" as="geometry" />
@@ -945,6 +945,12 @@
         </mxCell>
         <mxCell id="GODpegbIOZ93fXvZg3FF-28" value="共享角色白名单" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1196.5" y="-70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GODpegbIOZ93fXvZg3FF-29" value="鉴权URL&lt;br&gt;过滤" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="131.5" y="-130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GODpegbIOZ93fXvZg3FF-30" value="用户级数据范围" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
