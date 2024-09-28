@@ -230,8 +230,8 @@
             <mxPoint x="-193" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PywDyqhVrASCAQHyuBEY-66" value="Entity：基础设施层，数据模型&lt;br&gt;Model：领域层，领域模型&lt;br&gt;Provider：接口定义在领域层，实现类在基础设施层（依赖倒置），入参和返回值是Model&lt;br&gt;Manager：领域层，领域逻辑。Model（Adapter）中的方法主要是和数据层的交互，Manager抽象级别更高一级，串联逻辑，如调用MOodel的方法，然后发布领域事件&lt;br&gt;Adapter：基础设施层，Model的实现类（依赖倒置），jps实现、内存缓存实现等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-543" y="1020" width="830" height="80" as="geometry" />
+        <mxCell id="PywDyqhVrASCAQHyuBEY-66" value="Entity：基础设施层，数据模型&lt;br&gt;Model：领域层，领域模型&lt;br&gt;Provider：接口定义在领域层，实现类在基础设施层（依赖倒置），入参和返回值是Model&lt;br&gt;Manager：领域层，领域逻辑。Model（Adapter）中的方法主要是和数据层的交互，Manager抽象级别更高一级，串联逻辑，如调用MOodel的方法，然后发布领域事件&lt;br&gt;Adapter：基础设施层，Model的实现类（依赖倒置），jps实现、内存缓存实现等&lt;br&gt;Resource：services层，管理类接口？&lt;br&gt;Representation：作为Resource接口的入参和返回接口" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-564.25" y="1059" width="830" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PywDyqhVrASCAQHyuBEY-67" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;«interface»&lt;/span&gt;&lt;br&gt;UserCredentialStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="800" width="130" height="40" as="geometry" />
@@ -314,8 +314,11 @@
             <mxPoint x="-578" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PywDyqhVrASCAQHyuBEY-85" value="server-spi：领域层&lt;br&gt;model：基础设施层" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-473" y="1150" width="120" height="40" as="geometry" />
+        <mxCell id="PywDyqhVrASCAQHyuBEY-85" value="server-spi：领域层&lt;br&gt;model：基础设施层&lt;br&gt;services：应用层？接口层？&lt;br&gt;core：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1059" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PywDyqhVrASCAQHyuBEY-86" value="1、批量接口通过Stream的方式拉取" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="1000" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
