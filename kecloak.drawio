@@ -312,8 +312,8 @@
             <mxPoint x="-578" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PywDyqhVrASCAQHyuBEY-85" value="server-spi：领域层； 蓝色&lt;br&gt;server-spi-private：紫色&lt;br&gt;model：基础设施层，黄色&lt;br&gt;&lt;div&gt;services：应用层？接口层？ 绿色&lt;br&gt;core：&lt;br&gt;quarkus：红色&lt;br&gt;integration：客户端（管理后台、业务端）&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="827" y="20" width="230" height="120" as="geometry" />
+        <mxCell id="PywDyqhVrASCAQHyuBEY-85" value="server-spi：领域层；&lt;br&gt;server-spi-private：&lt;br&gt;model：基础设施层，&lt;br&gt;&lt;div&gt;services：应用层？接口层？&lt;br&gt;core：&lt;br&gt;quarkus：&lt;br&gt;integration：客户端（管理后台、业务端）&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="309.5" y="-80" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PywDyqhVrASCAQHyuBEY-86" value="1、批量接口通过Stream的方式拉取" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-800" y="1000" width="200" height="30" as="geometry" />
