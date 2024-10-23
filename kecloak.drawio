@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="SGcs01yoSxrTNf1rtQp4">
-    <mxGraphModel dx="2657" dy="2324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -889,6 +889,33 @@
         </mxCell>
         <mxCell id="4is82hXjYChXJMdWFKrd-6" value="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#111925&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Policy类型&lt;br&gt;&amp;nbsp;- User&lt;br&gt;&amp;nbsp;- Role&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#111925&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- JavaScript：从上下文中提取数据，做逻辑判断&lt;br&gt;&amp;nbsp;- Time&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#111925&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- Group&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#111925&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- Client Scope&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#111925&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- Regex：&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji&quot; color=&quot;#111925&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- Aggregated&lt;br&gt;&lt;br&gt;Policy不仅是是用户&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="827" y="1870" width="577" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-800" y="2360" width="360" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry x="120" width="240" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry y="203" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry y="443" width="240" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry x="120" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry x="240" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry y="203" width="120" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry x="120" y="200" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4is82hXjYChXJMdWFKrd-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="4is82hXjYChXJMdWFKrd-13">
+          <mxGeometry x="240" y="200" width="120" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
