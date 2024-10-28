@@ -197,7 +197,7 @@
         <mxCell id="C_T3ahLcrMBN9of1P4-y-75" value="DTS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1109" y="480" width="90" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="C_T3ahLcrMBN9of1P4-y-77" value="超额检查" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C_T3ahLcrMBN9of1P4-y-77" value="超额校验" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="480" width="100" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="C_T3ahLcrMBN9of1P4-y-84" value="限额控制切面" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
