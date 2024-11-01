@@ -367,6 +367,44 @@
         <mxCell id="tlTZ_rVBp8qq2C7-xM8t-5" value="create_time 入库事件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="o633ZoS6AJ5Oe4X6fH7--45">
           <mxGeometry y="360" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlTZ_rVBp8qq2C7-xM8t-20" target="tlTZ_rVBp8qq2C7-xM8t-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-20" value="领域事件" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="1055" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlTZ_rVBp8qq2C7-xM8t-27" target="tlTZ_rVBp8qq2C7-xM8t-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="970" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlTZ_rVBp8qq2C7-xM8t-22" target="tlTZ_rVBp8qq2C7-xM8t-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-22" value="产生领域事件" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="155" y="950" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlTZ_rVBp8qq2C7-xM8t-25" target="tlTZ_rVBp8qq2C7-xM8t-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-25" value="事件总线" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="330" y="950" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-27" value="业务逻辑" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry y="940" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tlTZ_rVBp8qq2C7-xM8t-28" target="tlTZ_rVBp8qq2C7-xM8t-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-28" value="DTS" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1075" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-31" value="记录领域事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1000" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tlTZ_rVBp8qq2C7-xM8t-34" value="发布事件消息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="505" y="950" width="95" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
