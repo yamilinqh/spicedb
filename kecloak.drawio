@@ -947,7 +947,7 @@
             <mxPoint x="1177" y="29.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2eIb-Uja_VHRLt-5p_G-10" value="EmailEventListenerProvider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="f2eIb-Uja_VHRLt-5p_G-10" value="EmailEventListenerProvider&lt;br&gt;（发邮件）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1350" y="-345" width="171.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f2eIb-Uja_VHRLt-5p_G-11" value="" style="endArrow=blockThin;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="f2eIb-Uja_VHRLt-5p_G-10" target="f2eIb-Uja_VHRLt-5p_G-17">
@@ -1067,7 +1067,7 @@
         <mxCell id="f2eIb-Uja_VHRLt-5p_G-43" value="EventListenerProvider&lt;br&gt;onEvent（）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1870" y="-60" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="f2eIb-Uja_VHRLt-5p_G-45" value="JBossLoggingEventListenerProvider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="f2eIb-Uja_VHRLt-5p_G-45" value="JBossLoggingEventListenerProvider&lt;br&gt;（记录日志）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1220" y="-210" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f2eIb-Uja_VHRLt-5p_G-46" value="" style="endArrow=blockThin;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="f2eIb-Uja_VHRLt-5p_G-45" target="f2eIb-Uja_VHRLt-5p_G-17">
