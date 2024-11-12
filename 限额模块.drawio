@@ -462,6 +462,15 @@
             <mxPoint x="1545" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bmAv3GKdlV52xef8d-e1-7" value="数据项&lt;br&gt;是否超额" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmAv3GKdlV52xef8d-e1-8" value="超额数据项表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1328" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bmAv3GKdlV52xef8d-e1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bmAv3GKdlV52xef8d-e1-7" target="bmAv3GKdlV52xef8d-e1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
