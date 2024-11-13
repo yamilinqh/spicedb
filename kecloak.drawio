@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="__7gwF63bdDMFCGE4VJQ-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="__7gwF63bdDMFCGE4VJQ-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="1674" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Wga-283EZ0comKnrMXyO-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1530" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="PywDyqhVrASCAQHyuBEY-1" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;«interface»&lt;/span&gt;&lt;br&gt;UserModel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-348" y="170" width="80" height="40" as="geometry" />
@@ -1078,6 +1081,31 @@
             <mxPoint x="1281" y="-200" as="sourcePoint" />
             <mxPoint x="1145.9499999999998" y="-260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Wga-283EZ0comKnrMXyO-8" value="" style="group;dashed=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="756" y="1674" width="154" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Wga-283EZ0comKnrMXyO-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="Wga-283EZ0comKnrMXyO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154" y="85" as="sourcePoint" />
+            <mxPoint x="154" y="1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wga-283EZ0comKnrMXyO-5" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="Wga-283EZ0comKnrMXyO-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wga-283EZ0comKnrMXyO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.889;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="__7gwF63bdDMFCGE4VJQ-40" target="Wga-283EZ0comKnrMXyO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1019" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wga-283EZ0comKnrMXyO-11" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1730" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
