@@ -188,7 +188,7 @@
           <mxGeometry x="460" y="260" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-108" value="Configuration Endpoint:负责Event Stream管理：&lt;br&gt;post：创建流&lt;br&gt;patch：更新流配置&lt;br&gt;put：替换流配置&lt;br&gt;get：读取流配置&lt;br&gt;delete：替换流&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Status Endpoint：管理流状态&lt;br&gt;get：读取流状态&lt;br&gt;post：更新流状态&lt;br&gt;&lt;br&gt;Add Subject Endpoint：将Subject关联到Stream&lt;br&gt;post：&lt;br&gt;&lt;br&gt;Remove Subject Endpoint：移除Stream关联的Subject&lt;br&gt;post&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="9" y="710" width="392" height="310" as="geometry" />
+          <mxGeometry y="600" width="281" height="270" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-109" value="Delivery Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="640" width="120" height="40" as="geometry" />
