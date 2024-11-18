@@ -206,16 +206,37 @@
           <mxGeometry x="760" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-115" value="Stream管理服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="469" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-116" value="事件分发服务&lt;br&gt;Event Delivery" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="660" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="711" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-117" value="Transmitter SDK" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="469" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-118" value="Receiver SDK" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="660" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="711" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-121" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-119" target="cIg96sCf_VElqngGWfwU-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-119" value="Create Event Stream" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-123" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-120" target="cIg96sCf_VElqngGWfwU-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-125" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-120" target="cIg96sCf_VElqngGWfwU-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-120" value="Add Subject" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1040" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-122" value="Event Listen" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1040" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-124" value="Event Verfication" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1110" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
