@@ -176,19 +176,46 @@
           <mxGeometry x="34" y="515" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-103" value="Stream Management&lt;br&gt;Event Poll Endpoint&lt;br&gt;Event Push Task&lt;br&gt;认证/授权" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="630" y="436" width="130" height="70" as="geometry" />
+          <mxGeometry x="449" y="330" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-104" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Receiver&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="319" y="515" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-105" value="Delivery Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="580" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-106" value="1、How to register a Receiver&lt;br&gt;2、How to create an event stream（stream：Receiver 1:1 or n : 1）&lt;br&gt;3、How to 认证和授权" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="460" y="260" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-108" value="Configuration Endpoint:负责Event Stream管理：&lt;br&gt;post：创建流&lt;br&gt;patch：更新流配置&lt;br&gt;put：替换流配置&lt;br&gt;get：读取流配置&lt;br&gt;delete：替换流&lt;br&gt;&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Status Endpoint：管理流状态&lt;br&gt;get：读取流状态&lt;br&gt;post：更新流状态&lt;br&gt;&lt;br&gt;Add Subject Endpoint：将Subject关联到Stream&lt;br&gt;post：&lt;br&gt;&lt;br&gt;Remove Subject Endpoint：移除Stream关联的Subject&lt;br&gt;post&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="9" y="570" width="392" height="310" as="geometry" />
+          <mxGeometry x="9" y="710" width="392" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-109" value="Delivery Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-113" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-111" target="cIg96sCf_VElqngGWfwU-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-111" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-114" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-112" target="cIg96sCf_VElqngGWfwU-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-112" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-115" value="Stream管理服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="469" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-116" value="事件分发服务&lt;br&gt;Event Delivery" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-117" value="Transmitter SDK" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="469" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-118" value="Receiver SDK" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="660" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
