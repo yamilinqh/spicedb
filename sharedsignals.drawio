@@ -238,6 +238,9 @@
         <mxCell id="cIg96sCf_VElqngGWfwU-124" value="Event Verfication" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="1110" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-126" value="UI功能：&lt;br&gt;面向RD：&lt;br&gt;1、注册Receiver、注册Transmitter 参考Okta&lt;br&gt;2、流管理&lt;br&gt;&lt;br&gt;面向运营：&lt;br&gt;1、IAM审计事件查询&lt;br&gt;2、Shared Signals事件查询（基于流，同一个事件每个流都有一个镜像）&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="380" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
