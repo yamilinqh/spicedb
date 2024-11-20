@@ -182,7 +182,7 @@
           <mxGeometry x="319" y="515" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-105" value="Delivery Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="610" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-106" value="1、How to register a Receiver&lt;br&gt;2、How to create an event stream（stream：Receiver 1:1 or n : 1）&lt;br&gt;3、How to 认证和授权" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="210" width="420" height="30" as="geometry" />
@@ -191,31 +191,31 @@
           <mxGeometry y="600" width="281" height="270" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-109" value="Delivery Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="640" width="120" height="40" as="geometry" />
+          <mxGeometry x="540" y="650" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-113" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-111" target="cIg96sCf_VElqngGWfwU-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-111" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="640" width="120" height="40" as="geometry" />
+          <mxGeometry x="300" y="650" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-114" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-112" target="cIg96sCf_VElqngGWfwU-105">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-112" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="540" y="610" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-115" value="Stream管理服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="520" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-116" value="事件分发服务&lt;br&gt;Event Delivery" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="711" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="491" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-117" value="Transmitter SDK" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="520" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-118" value="Receiver SDK" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="711" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="491" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-121" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-119" target="cIg96sCf_VElqngGWfwU-120">
           <mxGeometry relative="1" as="geometry" />
@@ -238,11 +238,11 @@
         <mxCell id="cIg96sCf_VElqngGWfwU-124" value="Event Verfication" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="640" y="1210" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cIg96sCf_VElqngGWfwU-126" value="UI功能：&lt;br&gt;面向RD：&lt;br&gt;1、注册Receiver&lt;br&gt;2、注册Transmitter（是否有外部Transmitter还不确定） 参考Okta&lt;br&gt;3、流管理&lt;br&gt;4、内部审计应用、事件注册（前期只支持内部，可以暂时写库，不需要UI）&lt;br&gt;&lt;br&gt;面向运营：&lt;br&gt;1、IAM审计事件查询&lt;br&gt;2、Shared Signals事件查询（基于流，同一个事件每个流都有一个镜像）&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="255" width="390" height="160" as="geometry" />
+        <mxCell id="cIg96sCf_VElqngGWfwU-126" value="UI功能：&lt;br&gt;&lt;br&gt;面向RD：&lt;br&gt;1、注册Receiver&lt;br&gt;2、注册Transmitter（是否有外部Transmitter还不确定） 参考Okta&lt;br&gt;3、流管理&lt;br&gt;4、内部审计应用、事件注册（前期只支持内部，可以暂时写库，不需要UI）&lt;br&gt;&lt;br&gt;面向运营：&lt;br&gt;1、IAM审计事件查询&lt;br&gt;2、Shared Signals事件查询（基于流，同一个事件每个流都有一个镜像）&lt;br&gt;&lt;br&gt;面向管理&lt;br&gt;1、应用管理&lt;br&gt;2、Transmitter、Receiver管理&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="390" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="cIg96sCf_VElqngGWfwU-127" value="接口功能：&lt;br&gt;1、普通事件订阅（基于Security Event Token，如SCIM）&lt;br&gt;2、认证与授权&lt;br&gt;3、审计事件生产&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="415" width="300" height="80" as="geometry" />
+        <mxCell id="cIg96sCf_VElqngGWfwU-127" value="接口功能：&lt;br&gt;1、普通事件订阅（基于Security Event Token，如SCIM）&lt;br&gt;2、认证与授权&lt;br&gt;3、审计事件生产&lt;br&gt;4、作为Shared Signals Transmitter&lt;br&gt;5、作为Shared Signals Receiver&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="515" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-130" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="cIg96sCf_VElqngGWfwU-128" target="cIg96sCf_VElqngGWfwU-129">
           <mxGeometry relative="1" as="geometry" />
@@ -261,6 +261,18 @@
         </mxCell>
         <mxCell id="cIg96sCf_VElqngGWfwU-132" value="Receiver注册" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="39" y="1140" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-135" value="User Event" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="850" y="760" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-136" value="Admin Event" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="850" y="850" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-137" value="Shared Signals Event" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="760" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cIg96sCf_VElqngGWfwU-138" value="功能概要&lt;br&gt;1、UI能力，包括管理后台、面向RD、面向运营&lt;br&gt;2、接口能力，用户事件、管理事件、SSE；&lt;br&gt;3、应用间认证能力，接口权限管控能力&lt;br&gt;4、领域模型设计&lt;br&gt;5、数据模型设计" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1260" width="250" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
