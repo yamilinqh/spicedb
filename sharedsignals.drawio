@@ -516,6 +516,12 @@
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-119" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-118" target="OIt1UMHO6sKuOlpWB3Og-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-120" value="transmitter" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="39" y="2001" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-121" value="receiver" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="201" y="2001" width="80" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
