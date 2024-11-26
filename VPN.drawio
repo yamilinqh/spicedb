@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
   <diagram name="Page-1" id="OuY2t-sL65_i3FM4xlRS">
-    <mxGraphModel dx="1517" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2344" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -549,6 +549,96 @@
         </mxCell>
         <mxCell id="-IJ2zPJmwYMM-XH0tkm4-251" value="VPN应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="830" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-254" target="-IJ2zPJmwYMM-XH0tkm4-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-254" value="VPN管理系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-255" value="UAC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-257" target="-IJ2zPJmwYMM-XH0tkm4-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-260" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-257" target="-IJ2zPJmwYMM-XH0tkm4-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-270" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-257" target="-IJ2zPJmwYMM-XH0tkm4-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-257" value="VPN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-259" value="内网应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="1710" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-261" target="-IJ2zPJmwYMM-XH0tkm4-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-261" target="-IJ2zPJmwYMM-XH0tkm4-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-261" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-265" value="大象一键VPN" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1490" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-266" value="VPN客户端" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1520" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-267" value="连接VPN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-269" value="SSO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="1590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-271" value="权限" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-272" value="认证" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-273" target="-IJ2zPJmwYMM-XH0tkm4-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-273" value="IAM个人中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1390" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-276" value="申请权限" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1378" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-277" value="审批后&lt;br&gt;入库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1493" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-278" value="SDK接口&lt;br&gt;授权" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-279" target="-IJ2zPJmwYMM-XH0tkm4-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-286" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-279" target="-IJ2zPJmwYMM-XH0tkm4-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-279" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-IJ2zPJmwYMM-XH0tkm4-281" target="-IJ2zPJmwYMM-XH0tkm4-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-281" value="云办公管理系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1720" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-283" value="业务逻辑与权限逻辑集成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="1670" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-287" value="UAC管理后台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IJ2zPJmwYMM-XH0tkm4-288" value="居家办公管理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1740" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
