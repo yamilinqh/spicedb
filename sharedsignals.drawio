@@ -522,6 +522,9 @@
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-124" value="+ id: bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="OIt1UMHO6sKuOlpWB3Og-123">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-139" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-127" target="OIt1UMHO6sKuOlpWB3Og-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-127" value="Configuration Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="38" y="1980" width="96" height="50" as="geometry" />
         </mxCell>
@@ -529,13 +532,28 @@
           <mxGeometry x="39" y="2040" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-129" value="Add Subject Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="334" y="2170" width="96" height="50" as="geometry" />
+          <mxGeometry x="40" y="2120" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-130" value="Remove Subject Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="454" y="2170" width="96" height="50" as="geometry" />
+          <mxGeometry x="40" y="2200" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-131" value="Verification Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="573" y="2168" width="96" height="52" as="geometry" />
+          <mxGeometry x="40" y="2270" width="96" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-134" value="事件生成" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1990" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-135" value="配置管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="1980" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-136" value="事件流管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="2260" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-137" value="主体管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2090" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-138" value="事件传输" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2160" width="96" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
