@@ -523,19 +523,19 @@
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-127" value="Configuration Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;glass=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="34" y="2040" width="96" height="50" as="geometry" />
+          <mxGeometry x="38" y="1980" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-128" value="Status Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="34" y="2110" width="96" height="50" as="geometry" />
+          <mxGeometry x="39" y="2040" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-129" value="Add Subject Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="34" y="2180" width="96" height="50" as="geometry" />
+          <mxGeometry x="334" y="2170" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-130" value="Remove Subject Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="34" y="2260" width="96" height="50" as="geometry" />
+          <mxGeometry x="454" y="2170" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-131" value="Verification Endpoint" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="34" y="2338" width="96" height="52" as="geometry" />
+          <mxGeometry x="573" y="2168" width="96" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
