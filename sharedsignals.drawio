@@ -602,7 +602,7 @@
           <mxGeometry x="499" y="1902" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-164" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="485.5" y="2521.5" width="420.5" height="218.5" as="geometry" />
+          <mxGeometry x="486" y="2517.75" width="296" height="218.5" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-165" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=default;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="9" y="2648" width="110" height="60" as="geometry" />
@@ -654,21 +654,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-188" value="SSF事件管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="650" y="2548" width="80" height="50" as="geometry" />
+          <mxGeometry x="526" y="2544.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-189" value="配置管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2551.5" width="80" height="50" as="geometry" />
+          <mxGeometry x="666" y="2547.75" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-211" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-190" target="OIt1UMHO6sKuOlpWB3Og-189">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-190" value="事件流管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2660" width="80" height="50" as="geometry" />
+          <mxGeometry x="666" y="2656.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-191" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-194" target="OIt1UMHO6sKuOlpWB3Og-195">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="710" y="2795" />
+              <mxPoint x="586" y="2791.25" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -679,32 +679,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-194" value="事件传输" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="650" y="2660" width="80" height="50" as="geometry" />
+          <mxGeometry x="526" y="2656.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-195" value="外部服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=default;strokeColor=#666666;glass=0;shadow=0;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="801" y="2768" width="80" height="50" as="geometry" />
+          <mxGeometry x="677" y="2764.25" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OIt1UMHO6sKuOlpWB3Og-196" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-197" target="OIt1UMHO6sKuOlpWB3Og-194">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="2795" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-197" target="OIt1UMHO6sKuOlpWB3Og-194">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-197" value="外部服务" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;labelBackgroundColor=default;strokeColor=#666666;glass=0;shadow=0;fillColor=#f5f5f5;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2768" width="80" height="50" as="geometry" />
+          <mxGeometry x="526" y="2844.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-198" value="poll" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="610" y="2793" width="60" height="30" as="geometry" />
+          <mxGeometry x="515" y="2799.25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-199" value="push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="730" y="2793" width="60" height="30" as="geometry" />
+          <mxGeometry x="606" y="2789.25" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-200" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-201" target="OIt1UMHO6sKuOlpWB3Og-188">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="227" y="2500" />
-              <mxPoint x="690" y="2500" />
+              <mxPoint x="566" y="2500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -715,10 +711,13 @@
           <mxGeometry x="230" y="2622" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-203" value="Receiver" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="821" y="2521.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="604" y="2517.75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OIt1UMHO6sKuOlpWB3Og-206" value="SSF事件管理&lt;br&gt;描述：监听审计服务，将事件转换为SS事件&lt;br&gt;表：&lt;br&gt;shared_signals_event&lt;div&gt;&lt;br&gt;接口：无&lt;div&gt;&lt;br&gt;配置管理&lt;br&gt;描述：全局配置管理、receiver管理&lt;/div&gt;&lt;div&gt;表：&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;receiver&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;接口：&lt;br&gt;/.well-known/ssf-configuration&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;事件流管理&lt;/div&gt;&lt;div&gt;表：流配置&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;receiver_stream&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;receiver_stream_subject&lt;/span&gt;&lt;br&gt;&lt;br&gt;接口：&lt;br&gt;/ssf/stream&lt;br&gt;/ssf/status&lt;br&gt;/ssf/subjects:add&lt;br&gt;/ssf/subjects:remove&lt;br&gt;/ssf/stream-update （主动推）&lt;br&gt;&lt;br&gt;事件传输&lt;br&gt;表：&lt;span style=&quot;text-align: center;&quot;&gt;receiver_stream_event&lt;/span&gt;&lt;/div&gt;&lt;div&gt;接口：&lt;br&gt;/ssf/verify&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="975" y="2480" width="240" height="452" as="geometry" />
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-206" value="SSF事件管理&lt;br&gt;描述：监听审计服务，将事件转换为SS事件&lt;br&gt;表：&lt;br&gt;shared_signals_event&lt;div&gt;&lt;br&gt;接口：无&lt;div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;事件流管理&lt;/div&gt;&lt;div&gt;表：流配置&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;receiver_stream&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;receiver_stream_subject&lt;/span&gt;&lt;br&gt;&lt;br&gt;接口：&lt;br&gt;/ssf/stream&lt;br&gt;/ssf/status&lt;br&gt;/ssf/subjects:add&lt;br&gt;/ssf/subjects:remove&lt;br&gt;/ssf/stream-update （主动推）&lt;br&gt;&lt;br&gt;事件传输&lt;br&gt;表：&lt;span style=&quot;text-align: center;&quot;&gt;receiver_stream_event&lt;/span&gt;&lt;/div&gt;&lt;div&gt;接口：&lt;br&gt;/ssf/verify&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="827" y="2510" width="240" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-214" value="&lt;div&gt;配置管理&lt;br&gt;描述：全局配置管理、receiver管理、transmitter&lt;/div&gt;&lt;div&gt;表：&lt;br&gt;receiver&lt;br&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;transmitter&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;接口：&lt;/span&gt;&lt;br style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;/.well-known/ssf-configuration&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="832.5" y="2380" width="260" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
