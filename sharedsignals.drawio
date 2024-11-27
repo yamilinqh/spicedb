@@ -741,7 +741,7 @@
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-236" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-218" target="OIt1UMHO6sKuOlpWB3Og-224">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OIt1UMHO6sKuOlpWB3Og-245" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-218" target="OIt1UMHO6sKuOlpWB3Og-244">
+        <mxCell id="OIt1UMHO6sKuOlpWB3Og-245" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-218" target="OIt1UMHO6sKuOlpWB3Og-244">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-218" value="事件传输" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
@@ -767,7 +767,7 @@
           <mxGeometry x="931" y="2734.13" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-224" value="事件处理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="1101" y="2542" width="80" height="50" as="geometry" />
+          <mxGeometry x="958" y="2542" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-231" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="OIt1UMHO6sKuOlpWB3Og-225" target="OIt1UMHO6sKuOlpWB3Og-220">
           <mxGeometry relative="1" as="geometry">
@@ -789,7 +789,7 @@
           <mxGeometry x="1023.5" y="2514.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-244" value="配置管理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=#d79b00;glass=0;shadow=0;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="958" y="2544.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="1090" y="2544.25" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
