@@ -199,49 +199,76 @@
           <mxGeometry y="1120" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-1" value="uaccalc&lt;br&gt;动态组离线计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="215" width="90" height="40" as="geometry" />
+          <mxGeometry x="1114" y="390" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-2" value="uacgroup&lt;br&gt;动态组实时计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="215" width="90" height="40" as="geometry" />
+          <mxGeometry x="1254" y="390" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-3" target="U77D-R0VNN74uT261Rbi-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-3" value="uac&lt;br&gt;授权管理服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="305" width="90" height="40" as="geometry" />
+          <mxGeometry x="1114" y="290" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-4" target="U77D-R0VNN74uT261Rbi-2">
+        <mxCell id="U77D-R0VNN74uT261Rbi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-4" target="U77D-R0VNN74uT261Rbi-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-4" value="uaccore&lt;br&gt;鉴权服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="305" width="90" height="40" as="geometry" />
+        <mxCell id="U77D-R0VNN74uT261Rbi-4" value="uac鉴权服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="295" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-5" target="U77D-R0VNN74uT261Rbi-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-5" value="uac管理后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="305" width="90" height="40" as="geometry" />
+          <mxGeometry x="827" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-6" target="U77D-R0VNN74uT261Rbi-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-6" value="iam管理后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="400" width="90" height="40" as="geometry" />
+          <mxGeometry x="827" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-7" target="U77D-R0VNN74uT261Rbi-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-7" value="iam授权管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="400" width="90" height="40" as="geometry" />
+          <mxGeometry x="970" y="290" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-9" target="U77D-R0VNN74uT261Rbi-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-9" value="iamauth&lt;br&gt;一级鉴权适配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="305" width="90" height="40" as="geometry" />
+          <mxGeometry x="1404" y="295" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-11" target="U77D-R0VNN74uT261Rbi-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-11" value="SSO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="305" width="90" height="40" as="geometry" />
+          <mxGeometry x="1564" y="295" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-17" target="U77D-R0VNN74uT261Rbi-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="U77D-R0VNN74uT261Rbi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-17" target="U77D-R0VNN74uT261Rbi-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1154" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-17" value="upm鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="400" width="90" height="40" as="geometry" />
+        <mxCell id="U77D-R0VNN74uT261Rbi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-17" target="U77D-R0VNN74uT261Rbi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="210" />
+              <mxPoint x="1310" y="260" />
+              <mxPoint x="1299" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-17" value="upm&lt;br&gt;适配服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="180" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sn_x3s-fKinimpG0qHDk-59" target="U77D-R0VNN74uT261Rbi-19">
           <mxGeometry relative="1" as="geometry">
@@ -251,6 +278,65 @@
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-19" value="mafka" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="500" y="950" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-21" target="U77D-R0VNN74uT261Rbi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-21" value="upm sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-23" target="U77D-R0VNN74uT261Rbi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="250" />
+              <mxPoint x="1299" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-23" target="U77D-R0VNN74uT261Rbi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-23" value="uac sdk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1114" y="70" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-36" value="UAC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-37" target="U77D-R0VNN74uT261Rbi-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-37" value="UPM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-38" target="U77D-R0VNN74uT261Rbi-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-38" value="IAM鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="650" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-41" target="U77D-R0VNN74uT261Rbi-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-41" value="SSO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="545" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-43" target="U77D-R0VNN74uT261Rbi-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-43" value="IAM授权管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-45" target="U77D-R0VNN74uT261Rbi-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-45" value="IAM管理后台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="730" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-46" target="U77D-R0VNN74uT261Rbi-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U77D-R0VNN74uT261Rbi-46" value="IAM个人中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="800" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
