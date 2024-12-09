@@ -329,35 +329,6 @@
         <mxCell id="U77D-R0VNN74uT261Rbi-97" value="消息表&lt;br&gt;topic/msg/status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="870" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-99" target="U77D-R0VNN74uT261Rbi-100">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-99" value="delete from where rltid=xxx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-100" target="U77D-R0VNN74uT261Rbi-109">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-100" value="记录历史表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-108" target="U77D-R0VNN74uT261Rbi-100">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1540" y="670" />
-              <mxPoint x="1150" y="670" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-108" value="领域事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U77D-R0VNN74uT261Rbi-109" target="U77D-R0VNN74uT261Rbi-108">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-109" value="DTS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1269" y="560" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-115" value="记录一级历史表&lt;br&gt;Blade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="360" width="120" height="60" as="geometry" />
         </mxCell>
@@ -368,7 +339,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-117" value="记录全量历史表&lt;br&gt;Blade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="1260" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
