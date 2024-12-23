@@ -295,14 +295,6 @@
         <mxCell id="U77D-R0VNN74uT261Rbi-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U77D-R0VNN74uT261Rbi-89" target="U77D-R0VNN74uT261Rbi-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U77D-R0VNN74uT261Rbi-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U77D-R0VNN74uT261Rbi-89" target="U77D-R0VNN74uT261Rbi-90" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="953" y="670" />
-              <mxPoint x="1373" y="670" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="U77D-R0VNN74uT261Rbi-89" value="delete from where rltid=xxx" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="893" y="700" width="120" height="60" as="geometry" />
         </mxCell>
