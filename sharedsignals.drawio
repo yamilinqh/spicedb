@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-40" value="消费场景建设&lt;br&gt;1、IAM体系事件&lt;br&gt;2、信安场景" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="3420" width="110" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="OIt1UMHO6sKuOlpWB3Og-286" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="3100" width="248" height="105" as="geometry" />
         </mxCell>
@@ -819,77 +816,6 @@
         <mxCell id="_7RMSQ52WVbZRzOaKTIs-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1806" y="3123" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-21" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-19" target="Zxg7qvaZooi2AmAh7rbM-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-19" value="审计子系统建设" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="281" y="3420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-41" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-20" target="Zxg7qvaZooi2AmAh7rbM-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-20" value="Shared Signals&lt;br&gt;子系统建设" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="479" y="3420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-27" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-40" target="Zxg7qvaZooi2AmAh7rbM-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-26" value="智能方向建设" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="870" y="3420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-33" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-28" target="Zxg7qvaZooi2AmAh7rbM-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-28" value="IAM体系服务盘点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="280" y="3507" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-35" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-30" target="Zxg7qvaZooi2AmAh7rbM-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-30" value="外部服务盘点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="280" y="3597" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-32" value="IAM体系服务接入" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="480" y="3507" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-37" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-34" target="Zxg7qvaZooi2AmAh7rbM-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-34" value="外部服务接入" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="480" y="3597" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-39" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-36" target="Zxg7qvaZooi2AmAh7rbM-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-36" value="外部服务接入" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="3597" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-38" value="外部服务接入" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="870" y="3597" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;flowAnimation=0;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-42" target="Zxg7qvaZooi2AmAh7rbM-40">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="539" y="3670" />
-              <mxPoint x="650" y="3670" />
-              <mxPoint x="650" y="3470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-42" value="消费场景分析盘点&lt;br&gt;1、IAM体系事件&lt;br&gt;2、信安场景" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="479" y="3700" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;flowAnimation=0;" edge="1" parent="1" source="Zxg7qvaZooi2AmAh7rbM-43" target="Zxg7qvaZooi2AmAh7rbM-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="840" y="3780" />
-              <mxPoint x="840" y="3470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-43" value="智能化方向分析、盘点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="3750" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-82" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="725" y="4360" width="167" height="210" as="geometry" />
         </mxCell>
@@ -1062,13 +988,13 @@
           <mxGeometry x="166" y="3920" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-159" value="事件生产" style="text;strokeColor=none;fillColor=none;html=1;fontSize=11;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="90" y="4005" width="100" height="40" as="geometry" />
+          <mxGeometry x="88" y="4005" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-160" value="事件消费" style="text;strokeColor=none;fillColor=none;html=1;fontSize=11;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="90.5" y="4035" width="100" height="40" as="geometry" />
+          <mxGeometry x="88" y="4035" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-161" value="场景化服务" style="text;strokeColor=none;fillColor=none;html=1;fontSize=11;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="88" y="4065" width="100" height="40" as="geometry" />
+          <mxGeometry x="83" y="4065" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
