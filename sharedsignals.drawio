@@ -912,7 +912,7 @@
           <mxGeometry x="371" y="4380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-59" value="&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot;&gt;Shared Signals Transmitter子系统&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="540" y="4380" width="120" height="60" as="geometry" />
+          <mxGeometry x="544" y="4460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-61" value="&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot;&gt;Shared Signals Receiver子系统&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="374" y="4460" width="120" height="60" as="geometry" />
@@ -935,7 +935,7 @@
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-78" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;外部Shared Signals&lt;br&gt;&amp;nbsp;Receiver管理&lt;/span&gt;&lt;br&gt;（Receiver注册、事件流管理）" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="729" y="4250" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zxg7qvaZooi2AmAh7rbM-79" value="&lt;p style=&quot;caret-color: rgb(0, 0, 0); min-height: 24px; margin: 8px 0px;&quot; data-pm-slice=&quot;1 1 [&amp;quot;table&amp;quot;,null,&amp;quot;table_row&amp;quot;,null,&amp;quot;table_cell&amp;quot;,null]&quot; data-node-id=&quot;1ad21b64d22e4d258bc4f108d61997a5&quot; data-diff-id=&quot;ct-diff-id-5f048c60-4b87-475a-888e-21618dc9b269&quot;&gt;审计事件消费应用&lt;/p&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 0); text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="Zxg7qvaZooi2AmAh7rbM-79" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;审计事件消费应用&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="746" y="4380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zxg7qvaZooi2AmAh7rbM-80" value="审计系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
